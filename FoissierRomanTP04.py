@@ -87,7 +87,7 @@ while (reset=="o"):
   phrase = "Le mot est %s"
   print(phrase % (dico[mot]))
   reset = input("Voulez vous continuer ? o/n  :  ")
-  
+    
   print(len(dico[mot]))
   
 
