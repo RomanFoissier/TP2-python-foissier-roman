@@ -91,6 +91,7 @@ for row in myReader:
  
 with open(r"liste_etudiants_admin_sys.csv") as lignes:
   compter = sum(1 for line in lignes)
+  print("")
   print("Il y a ",compter," lignes dans le fichier")
 
 print("")
@@ -98,6 +99,24 @@ print("PARTIE 2")
 print("1.9 Fonction 'makeStudentClass'")
 print("")
 
+
+nomFichier = "liste_etudiants_admin_sys.csv"
+separateur = ";"
+
+def makeStudentClass (nomFichier,separateur):
+  reader = csv.reader(open(r"liste_etudiants_admin_sys.csv"))
+  newTab = {}
+  for row in reader: 
+   newTab = print(row)
+
+
+
+
+
+
+makeStudentClass(nomFichier,separateur)
+
+  
 
 
 
